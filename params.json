@@ -1,0 +1,6 @@
+{
+  "model": "roberta-large",
+  "layers": 17,
+  "language": "en",
+  "gpu": false
+}
