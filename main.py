@@ -19,13 +19,3 @@ def compute_similarity(text_1: str, text_2: str):
             'Error': 1,
             'description': 'Error during computing similarity'
         }
-        
-
-# uvicorn main:app --host 127.0.0.1 --port 8000 --reload
-
-# docker build --no-cache -t sim-api .
-# docker images
-# docker run -t -p 8002:8080 sim-api
-
-# docker ps
-# docker builder prune -f
